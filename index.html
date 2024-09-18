@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="splitter">
+      <h1 class="splitter-head">spli <br />tter</h1>
+      <div class="bill-container">
+        <div class="container">
+          <p class="bill-text">Bill</p>
+          <div class="bill">
+            <img class="dollar-img" src="./images/icon-dollar.svg" alt="" />
+            <input type="number" id="bill-input" placeholder="0" />
+          </div>
+          <div class="tips">
+            <p class="tip-text">Select Tip %</p>
+            <button class="tip">5%</button>
+            <button class="tip">10%</button>
+            <button class="tip">15%</button>
+            <button class="tip">25%</button>
+            <button class="tip">50%</button>
+            <input type="number" class="tip custom" placeholder="Custom" />
+          </div>
+          <div class="texts">
+            <p class="people-text">Number of People</p>
+            <p class="error-text">can't be zero</p>
+          </div>
+          <div class="people">
+            <img class="person-img" src="./images/icon-person.svg" alt="" />
+            <input
+              class="error-statement"
+              type="number"
+              id="people-input"
+              placeholder="0"
+            />
+          </div>
+        </div>
+        <div class="total-main-container">
+          <div class="tip-container">
+            <p class="tip-amount">Tip Amount</p>
+            <span class="tip-output">$0.00</span>
+          </div>
+          <div class="total-container">
+            <p class="total">Total</p>
+            <span class="total-output">$0.00</span>
+          </div>
+          <button class="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >
+      Coded by
+      <a href="https://www.frontendmentor.io/profile/tunaerten">Tuna Erten</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
